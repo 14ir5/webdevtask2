@@ -1,0 +1,96 @@
+body{
+   background-color: rgb(41, 12, 95); 
+   display:flex;
+   justify-content: center;
+
+}
+#gmspc
+{
+background-color: black;    
+display:flex;
+flex-direction:column;
+
+width:1000px;
+height:400px;
+
+}
+#top{
+    
+    width: 1000px;
+    height: 100px;
+
+
+}
+#cen{
+    background-color:gray;
+    width: 1000px;
+    height: 200px;
+    
+
+
+}
+#btm{
+
+    width: 1000px;
+    height: 100px;
+
+}
+#sqr{
+    background-color: rgb(165, 42, 52);
+    position:relative;
+    width:50px;
+    height:50px;
+    
+    
+    
+}
+.sqr{
+    animation:sq 3s linear infinite;
+}
+@keyframes sq{
+    0%{left:0px;}
+    100%{left:950px;}
+    
+}
+
+/*.down{
+    position:relative;
+    animation:dwn 1s forwards;
+    
+}
+@keyframes dwn{
+    from{top:0px;}
+    to{top:150px;}
+}
+.up{
+    position:relative;
+    animation:up 1s forwards;
+}
+@keyframes up{
+    from{top:150px;}
+    to{top:0px;}
+}
+.top{
+   position:absolute;
+    top:150px;
+
+}*/
+#hole{
+    height:100px;
+    width:100px;
+    position:relative;
+    background-color:black;
+
+}
+.hole{
+    animation:hl 3s linear infinite    !important ;
+}
+@keyframes hl{
+    0%{left:900px;}
+    100%{left:0px;}
+  
+}
+.hole2{
+   
+    background-color:gray !important;
+}
